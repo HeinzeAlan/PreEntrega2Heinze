@@ -1,0 +1,19 @@
+/* Footer */
+
+@mixin separador{
+    border-top: 3px solid $color-complementario;
+}
+
+footer{
+    background-color: $color-fondo;
+    padding-top: 15px;
+    @include separador;
+}
+
+.bi-facebook{
+    width: 25%;
+}
+
+.bi-instagram{
+    width: 35%;
+}

@@ -1,0 +1,24 @@
+/* Tarjetas Index */
+.row{
+    padding: 25px;
+}
+
+.card{
+    margin: 5px;
+    padding: 5px;
+    background-color: $color-principal;
+}
+
+.card-title{
+    font-size: 25px;
+    color: $color-fondo;  
+}
+
+.card-text{
+    font-size: 15px;
+}
+
+.btnIndex{
+    background-color: $color-fondo;
+    font-weight: bold;
+}

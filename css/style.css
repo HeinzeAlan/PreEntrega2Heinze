@@ -1,133 +1,111 @@
-/* Logo */
-.logo{
-    width: 150px;
-    margin: 15px;
+/* Main - Textura general*/
+main {
+  background-image: url(../img/textura-blanca.jpg);
 }
 
 /* Header*/
-header{
-    background-color: #fafafa;
-    border-bottom: 3px solid grey;
-    font-size: 25px;
+header {
+  background-color: #fafafa;
+  border-bottom: 3px solid rgb(102, 102, 102);
+  font-size: 25px;
+}
+
+.logo {
+  width: 100px;
+  margin: 15px;
 }
 
 /* Carousel Index */
-.carousel{
-    padding: 30px;
-    margin-bottom: 30px;
-    height: 50%;
-}
-
-/* Main */
-main{
-    background-image: url(../img/textura-blanca.jpg);
-}
-
-/* Tarjetas Index */
-.row{
-    padding: 25px;
-}
-
-
-.card{
-    margin: 5px;
-    padding: 5px;
-    background-color: rgb(201, 104, 104);
-}
-
-.card-title{
-    font-size: 25px;
-    color: #fafafa;
-    
-}
-
-.card-text{
-    font-size: 15px;
-    
-}
-
-.btn{
-    background-color: #fafafa;
-    font-weight: bold;
+.carousel {
+  padding: 30px;
+  margin-bottom: 30px;
+  height: 50%;
 }
 
 /* Footer */
-
-footer{
-    background-color: #fafafa;
-    margin-top: 25px;
-    border-top: grey 3px solid;
+footer {
+  background-color: #fafafa;
+  padding-top: 15px;
+  border-top: 3px solid rgb(102, 102, 102);
 }
 
-.bi-facebook{
-    width: 25%;
+.bi-facebook {
+  width: 25%;
 }
 
-.bi-instagram{
-    width: 35%;
+.bi-instagram {
+  width: 35%;
 }
 
 /* Menu Productos */
-.section-header{
-    padding-top: 25px;
+.section-header {
+  padding-top: 25px;
 }
 
-h2{
-    font-size: 35px;
-    font-weight: bold;
+h2 {
+  font-size: 35px;
+  font-weight: bold;
 }
 
-h3{
-    background-color: rgb(201, 104, 104);
-    color: #fafafa;
-    font-weight: bold;
-    border-radius: 5px;
+h3 {
+  background-color: rgb(201, 104, 104);
+  color: #fafafa;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
-.price{
-    font-size: 25px;
-    font-weight: bold;
+.price {
+  font-size: 25px;
+  font-weight: bold;
 }
 
-.menu-item{
-    border-bottom: gray solid 2px;
-    
+.menu-item {
+  border-bottom: solid 2px rgb(102, 102, 102);
+}
+
+/*Contacto Form*/
+form {
+  margin: 25px;
+}
+
+.form-control {
+  border: 1px solid rgb(102, 102, 102);
+}
+
+.btnForm {
+  background-color: rgb(201, 104, 104);
+  border: rgb(139, 61, 61) solid 1px;
+  margin-top: 25px;
+}
+
+/* Tarjetas Index */
+.row {
+  padding: 25px;
+}
+
+.card {
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(201, 104, 104);
+}
+
+.card-title {
+  font-size: 25px;
+  color: #fafafa;
+}
+
+.card-text {
+  font-size: 15px;
+}
+
+.btnIndex {
+  background-color: #fafafa;
+  font-weight: bold;
 }
 
 /* Menu frecuentes */
-
-.texto{
-    padding: 25px;
+.texto {
+  padding: 25px;
 }
 
-/*Contacto*/
-
-form{
-    margin-top: 20px;
-}
-
-label{
-    display: block;
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 15px;
-    color: black;
-
-}
-
-textarea{
-    display: block;
-    width: 80%;
-    margin: auto;
-    border: solid grey 2px;
-    border-radius: 5px;
-
-}
-
-input[type="text"] {
-    border: solid grey 2px;
-    border-radius: 5px;
-    width: 50%;
-    padding: 5px;
-
-}
+/*# sourceMappingURL=style.css.map */
